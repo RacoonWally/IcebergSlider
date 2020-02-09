@@ -1,0 +1,34 @@
+.third_slide_navigation{
+
+  .third_slide_navigation_line{
+    position: relative;
+    margin: 0 auto;
+    bottom: 100px;
+    hr{
+      width: 600px;
+      border: 5px solid #8494A1;
+    }
+  }
+  .third_slide_navigation_date{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: -42px;
+    bottom: 95px;
+    p{
+      padding-left: 250px;
+    }
+  }
+
+  .third_slide_navigation_image{
+    position: relative;
+    bottom: 160px;
+    left: 200px;
+    img{
+      width: 40px;
+    }
+  }
+}

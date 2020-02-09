@@ -4,10 +4,11 @@
   opacity: $opacity;
   bottom: $bottom;
   left: $left;
-  img{
-    height: $height;
-    width: $width;
-  }
+  height: $height;
+  width: $width;
+  border-radius: 50%;
+  background: #EB9A46;
+  border: 0.5px solid orange;
 }
 
 @mixin change-text(){
@@ -16,5 +17,14 @@
   color: $blue;
   p{
     margin: 0;
+  }
+}
+
+@mixin changeImageInCircle($right, $bottom, $height, $width){
+  img {
+    right: $right;
+    bottom: $bottom;
+    height: $height;
+    width: $width;
   }
 }
